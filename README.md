@@ -54,24 +54,6 @@ Before running the application, ensure you have the following installed:
 
     The client application should be accessible at `http://localhost:8080` (or similar, depending on your setup). The server will run on a port defined in the server's `.env` file or default to a standard port.
 
-### Production
-
-1.  **Build the application:**
-
-    ```bash
-    npm run build
-    ```
-
-    This command will build both the server and client applications for production.
-
-2.  **Start the server:**
-
-    ```bash
-    npm run start
-    ```
-
-    This will start the Node.js server in production mode. Make sure your server is configured to serve the static files generated in the client build folder.
-
 ## Scripts
 
 The `package.json` file contains the following scripts:
