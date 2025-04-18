@@ -10,7 +10,7 @@ import MainChat from './components/MainChat.vue';
 export default defineComponent({
   name: 'App',
   components: {
-    MainChat
+    MainChat,
   }
 });
 </script>
